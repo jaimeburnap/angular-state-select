@@ -1,4 +1,4 @@
-angular.module('angular-state-select')
+angular.module('angular-state-select', [])
 .directive('stateSelect',
 	function(){
 		return {
