@@ -11,3 +11,9 @@ Just add it as a dependency to your angular app.
 Then inside your template add the attribute to the element that should contain the states.
 
 	<div state-select="state" placeholder=" - select - "></div>
+
+To set a default value set the model to the desired state
+
+	controller('ctrl', ['$scope', function($scope) {
+		$scope.state = {state: 'OR'};
+	}]);
